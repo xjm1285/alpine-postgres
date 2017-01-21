@@ -1,4 +1,4 @@
-FROM alpine-base:3.5
+FROM daocloud.io/xjm1285/alpine-postgres
 MAINTAINER Jimmy Xiao <xjm1285@gmail.com>
 
 ENV PGDATA=/var/lib/postgresql/data
